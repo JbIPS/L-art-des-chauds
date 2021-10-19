@@ -1,3 +1,14 @@
 backend:
   name: git-gateway
   branch: master
+
+media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+
+collections:
+  - name: "products"
+    label: "Produits"
+    folders: "_products"
+    create: true
+    slug: {{slug}}
+    fields:
+      - {label: "Nom", name: "name", widget: "string"}
