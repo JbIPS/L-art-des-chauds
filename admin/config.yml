@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: JbIPS/L-art-des-chauds
+  name: git-gateway
+  #repo: JbIPS/L-art-des-chauds
   branch: master
 
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
