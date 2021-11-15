@@ -1,0 +1,25 @@
+nav {
+
+	.navbar-brand {
+		img {
+			max-height: 30px;
+			width: auto;
+		}
+		@include media-breakpoint-up(lg) {
+			position: absolute;
+			top: 1rem;
+			left: 8rem;
+
+			img {
+				max-height: initial;
+			}
+		}
+	}
+
+	.nav-link {
+
+		&.active {
+			background-color: var(--secondary-color);
+		}
+	}
+}

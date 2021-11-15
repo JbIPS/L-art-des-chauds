@@ -1,0 +1,30 @@
+@font-face {
+	font-family: "Voltaire";
+	src: url("../fonts/voltaire/Voltaire-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Arya";
+	src: url("../fonts/arya/Arya-Regular.ttf") format("truetype");
+	font-weight: 100 600;
+}
+
+@font-face {
+	font-family: "Arya";
+	src: url("../fonts/arya/Arya-Bold.ttf") format("truetype");
+	font-weight: 700 900;
+}
+
+$headings-font-family: "Voltaire";
+
+.arya {
+	font-family: "Arya";
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}

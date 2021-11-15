@@ -1,0 +1,47 @@
+.grid {
+	max-height: 500px;
+
+	.grid-sizer, .grid-item {
+		width: 32%;
+	}
+
+	.grid-item {
+		height: 140px;
+		overflow: hidden;
+		margin-bottom: 5px;
+
+		&.ratio-logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 0;
+
+			img {
+				width: initial;
+				height: initial;
+			}
+		}
+
+		&.ratio-1x1 {
+			//img {
+				//width: 100%
+			//}
+		}
+
+		&.ratio-1x2 {
+			height: 280px;
+
+			//img {
+				//height: 100%
+			//}
+		}
+
+		img {
+			height: 100%;
+			width: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+}
+

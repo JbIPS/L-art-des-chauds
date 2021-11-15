@@ -1,0 +1,11 @@
+.hero {
+	background-image: url("../images/hero.png");
+	background-repeat: none;
+	background-size: cover;
+	min-height: 80vh;
+	color: var(--white);
+
+	h2 {
+		border-bottom: 2px solid var(--white);
+	}
+}

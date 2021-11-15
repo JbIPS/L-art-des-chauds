@@ -1,0 +1,13 @@
+<section class="py-5">
+    <div class="container">
+        <h2 class="display-6 text-center">Notre gamme</h2>
+        <div id="gamme-grid" class="grid col-lg-8 mx-auto" data-masonry='{"itemSelector": ".grid-item","columnWidth": ".grid-sizer","percentPosition": true, "gutter": 5}'>
+            <div class="grid-sizer"></div>
+            {% for item in site.data.settings.gamme %}
+            <div class="grid-item ratio-{{ item.ratio }}">
+                <img src="{{ item.icon }}" alt="{{ item.name }}" class="">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

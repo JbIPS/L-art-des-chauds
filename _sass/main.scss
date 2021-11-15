@@ -1,74 +1,61 @@
-@charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css');
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "bootstrap/functions";
 
+// 2. Include any default variable overrides here
+@import "_variables";
+@import "_typography";
 
-html,
-body {
-    font-family: 'Poppins', sans-serif;
-    scroll-behavior: smooth !important;
-    transition: all 0.25s ease;
-}
+// 3. Include remainder of required Bootstrap stylesheets
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/root";
 
+// 4. Include any optional Bootstrap CSS as needed
+@import "bootstrap/utilities";
+@import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
+@import "bootstrap/containers";
+@import "bootstrap/grid";
+@import "bootstrap/helpers";
 
+// @import "bootstrap/images";
+// @import "bootstrap/code";
+// @import "bootstrap/tables";
+// @import "bootstrap/forms";
+//@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+// @import "bootstrap/dropdown";
+// @import "bootstrap/button-group";
+// @import "bootstrap/input-group"; // Requires forms
+// @import "bootstrap/custom-forms";
+ @import "bootstrap/nav";
+ @import "bootstrap/navbar"; // Requires nav
+// @import "bootstrap/card";
+// @import "bootstrap/breadcrumb";
+// @import "bootstrap/pagination";
+// @import "bootstrap/badge";
+// @import "bootstrap/jumbotron";
+// @import "bootstrap/alert";
+// @import "bootstrap/progress";
+// @import "bootstrap/media";
+// @import "bootstrap/list-group";
+//@import "bootstrap/close";
+// @import "bootstrap/toasts";
+//@import "bootstrap/modal"; // Requires transitions
+// @import "bootstrap/tooltip";
+// @import "bootstrap/popover";
+// @import "bootstrap/carousel";
+// @import "bootstrap/spinners";
+// @import "bootstrap/print";
 
-/* width */
-::-webkit-scrollbar {
-    width: 0.5vmax !important;
-}
+// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "bootstrap/utilities/api";
 
-/* Track */
-::-webkit-scrollbar-track {
-    background: white !important;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #363636 !important;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: black !important;
-}
-
-::placeholder {
-    font-family: 'Poppins', sans-serif;
-}
-
-#navbar {
-    .navbar-burger {
-        span:nth-child(2) {
-            left: calc(50%);
-            width: 8px;
-        }
-    }
-}
-
-.is-active {
-    font-weight: bold;
-}
-
-.columns {
-    .button {
-        margin: 0.5rem !important;
-    }
-}
-
-hr {
-    margin: 1rem auto;
-    height: 1px;
-}
-
-.column {
-    margin: auto 0.5rem;
-    padding: 0.5rem;
-}
-
-.searchResult {
-    a {
-        .title {
-            text-decoration: underline;
-        }
-    }
-}
+// 6. Add additional custom code here
+@import "_navbar";
+@import "_hero";
+@import "_values";
+@import "_common";
+@import "_socials";
+@import "_gamme";

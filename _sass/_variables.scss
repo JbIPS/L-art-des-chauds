@@ -1,0 +1,26 @@
+$black: #071A20;
+$white: #FFFFFF;
+$primary: #FEC62F;
+$secondary: #D35341;
+$tertiary: #3E7889;
+$dark: #C2B69C;
+
+:root {
+	--primary-color: #{$primary};
+	--secondary-color: #{$secondary};
+	--tertiary-color: #{$tertiary};
+	--black: #{$black};
+	--white: #{$white};
+}
+
+// Body
+$body-bg: $white;
+$font-family-base: 'Arya';
+
+// Navbar
+$navbar-dark-color: $black;
+$navbar-dark-hover-color: $secondary;
+$navbar-dark-active-color: $black;
+$navbar-nav-link-padding-x: 1.5rem;
+$navbar-dark-toggler-border-color: transparent;
+$navbar-toggler-focus-width: 0;

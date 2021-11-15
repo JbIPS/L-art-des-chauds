@@ -1,0 +1,16 @@
+<section class="mt-5 pb-5 px-3">
+    <h2 class="display-6 text-center mb-5">Nos valeurs</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            {% for value in site.values %}
+            <div class="col-8 col-md-4 value"> 
+                <div class="img-container col-5 col-xl-4 mx-auto mb-4 bg-{{ forloop.index }}">
+                    <img src="{{ value.icon }}" alt="" class="col-7">
+                </div>
+                <h3 class="mb-5">{{ value.name }}</h3>
+                <p>{{ value.content }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
