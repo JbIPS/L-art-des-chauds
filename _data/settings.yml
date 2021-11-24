@@ -1,3 +1,8 @@
+navigation:
+  - title: Accueil
+    url: /
+  - title: Produits
+    url: /products
 socials:
   - icon: assets/images/LAdC-amazon-rouge.svg
     url: https://amazon.fr

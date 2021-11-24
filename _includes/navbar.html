@@ -8,15 +8,16 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
-        <li>
-          <a class="nav-link active fs-4" aria-current="page" href="#">Accueil</a>
-        </li>
-        <li>
-          <a class="nav-link fs-4" href="#">Qui sommes-nous ?</a>
-        </li>
-        <li>
-          <a class="nav-link fs-4" href="#">Produits</a>
-        </li>
+        {% for nav in site.data.settings.navigation %}
+          {% if page.url == nav.url %}
+           {% assign current_page = true %}
+          {% else %}
+           {% assign current_page = false %}
+          {% endif %}
+          <li>
+            <a class="nav-link {% if current_page %}active {% endif %}fs-4" {% if current_page %}aria-current="page" {% endif %}href="{{ nav.url }}">{{ nav.title }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
