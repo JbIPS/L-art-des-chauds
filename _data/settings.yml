@@ -3,13 +3,15 @@ navigation:
     url: /
   - title: Produits
     url: /products
+  - title: Qui sommes nous ?
+    url: /qui-sommes-nous
 socials:
   - icon: assets/images/LAdC-amazon-rouge.svg
     url: https://amazon.fr
   - icon: assets/images/LAdC-facebook-rouge.svg
     url: https://facebook.com
   - icon: assets/images/LAdC-instagram-rouge.svg
-    url: https://instagram.com
+    url: https://www.instagram.com/lartdeschauds
 gamme:
   - icon: assets/images/hero.png
     url: #
