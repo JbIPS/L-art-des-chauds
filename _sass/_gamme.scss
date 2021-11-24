@@ -11,29 +11,15 @@
 		margin-bottom: 5px;
 
 		&.ratio-logo {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			margin-bottom: 0;
+			padding: 1rem;
 
 			img {
-				width: initial;
-				height: initial;
+				object-fit: contain;
 			}
-		}
-
-		&.ratio-1x1 {
-			//img {
-				//width: 100%
-			//}
 		}
 
 		&.ratio-1x2 {
 			height: 280px;
-
-			//img {
-				//height: 100%
-			//}
 		}
 
 		img {
