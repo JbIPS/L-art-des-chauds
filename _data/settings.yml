@@ -8,30 +8,28 @@ navigation:
 socials:
   - icon: assets/images/LAdC-amazon-rouge.svg
     url: https://amazon.fr
-  - icon: assets/images/LAdC-facebook-rouge.svg
-    url: https://facebook.com
   - icon: assets/images/LAdC-instagram-rouge.svg
-    url: https://www.instagram.com/lartdeschauds
+    url: https://www.instagram.com/lartdeschauds/
 gamme:
-  - icon: assets/images/hero.png
+  - icon: assets/images/LAdC_image_4.webp
     url: #
     ratio: 1x2
-  - icon: assets/images/hero.png
+  - icon: assets/images/LAdC_image_2.webp
     url: #
     ratio: 1x1
-  - icon: assets/images/hero.png
+  - icon: assets/images/LAdC_image_7.webp
     url: #
     ratio: 1x1
   - icon: assets/images/LAdC_logo_c.svg
     url: #
     ratio: logo
-  - icon: assets/images/hero.png
+  - icon: assets/images/LAdC_image_1.webp
     url: #
     ratio: 1x2
-  - icon: assets/images/hero.png
+  - icon: assets/images/LAdC_image_3.webp
     url: #
     ratio: 1x1
-  - icon: assets/images/hero.png
+  - icon: assets/images/hLAdC_image_5.webp
     url: #
     ratio: 1x1
 
