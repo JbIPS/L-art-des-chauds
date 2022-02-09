@@ -6,8 +6,8 @@ navigation:
   - title: Qui sommes nous ?
     url: /qui-sommes-nous
 socials:
-  - icon: assets/images/LAdC-amazon-rouge.svg
-    url: https://amazon.fr
+  #- icon: assets/images/LAdC-amazon-rouge.svg
+   # url: https://amazon.fr
   - icon: assets/images/LAdC-instagram-rouge.svg
     url: https://www.instagram.com/lartdeschauds/
 gamme:
