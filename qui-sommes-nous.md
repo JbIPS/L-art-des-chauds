@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: side_pic
+title: Qui sommes nous ?
+image: /assets/images/LAdC_FlavetNelly.webp
 ---
-# Qui sommes nous ?
 
 Une **Ardéchoise** (Flavia) et une **Gardoise** (Nelly) qui savent se parler de gastronomie et qui ont une envie commune, encore d'entreprendre. De caractère méditerranéen, très respectueuses de la nature, légèrement chauvines, militantes pour les droits des femmes et surtout bonnes vivantes !!! « Ça part de là ! » 
 
