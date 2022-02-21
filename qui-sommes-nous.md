@@ -1,5 +1,5 @@
 ---
-layout: side_pic
+layout: side-pic
 title: Qui sommes nous ?
 image: /assets/images/LAdC_FlavetNelly.webp
 ---
