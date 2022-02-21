@@ -2,11 +2,11 @@
 layout: page
 ---
 <h1>{{ page.title }}</h1>
-<div class="d-flex">
-    <div class="col-12 col-lg-3 mb-5">
+<div class="row">
+    <div class="col-12 col-lg-3 mb-5 order-last order-lg-first">
         <img src="{{ page.image | url }}" class="img-fluid">
     </div>
-    <div class="col-12 col-lg-9 px-5">
+    <div class="col-12 col-lg-9 px-lg-5">
         {{ content }}
     </div>
 </div>
